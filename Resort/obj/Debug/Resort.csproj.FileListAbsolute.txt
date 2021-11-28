@@ -19,4 +19,3 @@ D:\ASS2_DB\Resort\Resort\obj\Debug\Resort.exe
 D:\ASS2_DB\Resort\Resort\obj\Debug\Resort.pdb
 D:\ASS2_DB\Resort\Resort\obj\Debug\Resort.Login.resources
 D:\ASS2_DB\Resort\Resort\obj\Debug\Resort.Register.resources
-D:\ASS2_DB\Resort\Resort\obj\Debug\Resort.Form1.resources
