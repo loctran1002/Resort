@@ -19,3 +19,7 @@ D:\ASS2_DB\Resort\Resort\obj\Debug\Resort.exe
 D:\ASS2_DB\Resort\Resort\obj\Debug\Resort.pdb
 D:\ASS2_DB\Resort\Resort\obj\Debug\Resort.Login.resources
 D:\ASS2_DB\Resort\Resort\obj\Debug\Resort.Register.resources
+D:\ASS2_DB\Resort\Resort\obj\Debug\Resort.Customer_information.resources
+D:\ASS2_DB\Resort\Resort\obj\Debug\Resort.Home_page.resources
+D:\ASS2_DB\Resort\Resort\bin\Debug\Microsoft.Azure.Amqp.dll
+D:\ASS2_DB\Resort\Resort\obj\Debug\Resort.csproj.CopyComplete
