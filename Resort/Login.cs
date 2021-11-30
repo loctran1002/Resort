@@ -1,13 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 
 namespace Resort
 {
@@ -17,8 +10,6 @@ namespace Resort
         {
             InitializeComponent();
         }
-
-        SqlConnection link = new SqlConnection(@"Data Source=DESKTOP-D59BBBC;Initial Catalog=RESORT;Persist Security Info=True;User ID=sManager;Password=Resort123");
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -44,18 +35,11 @@ namespace Resort
         {
             try
             {
-                link.Open();
-                //string query = "SELECT * FROM KhachHang WHERE Username = '" + textUsername.Text.Trim() + "' AND Password = '" + textPassword.Text.Trim() + "'";
-                //SqlDataAdapter cmd = new SqlDataAdapter(query, link);
-                //DataTable table = new DataTable();
-                //cmd.Fill(table);
-                //if (table.Rows.Count == 1)
                 if (textUsername.Text.Trim() == "sManager" && textPassword.Text.Trim() == "Resort123")
                 {
-                    //Move to main
+                    Home_page home = new Home_page();
                     this.Hide();
-                    //main.Show();
-                    MessageBox.Show("Login successfully");
+                    home.Show();
                 }
                 else
                 {
@@ -65,10 +49,6 @@ namespace Resort
             catch (Exception)
             {
                 MessageBox.Show("System Error");
-            }
-            finally
-            {
-                link.Close();
             }
         }
 

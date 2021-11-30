@@ -20,3 +20,6 @@ D:\ASS2_DB\Resort\Resort\obj\Debug\Resort.Login.resources
 D:\ASS2_DB\Resort\Resort\obj\Debug\Resort.Register.resources
 D:\ASS2_DB\Resort\Resort\obj\Debug\Resort.Form1.resources
 D:\Resort\Resort\obj\Debug\Resort.Login.resources
+D:\Resort\Resort\obj\Debug\Resort.Home_page.resources
+D:\Resort\Resort\obj\Debug\Resort.Customer.resources
+D:\Resort\Resort\obj\Debug\Resort.Statistics.resources
